@@ -2,7 +2,7 @@
 ;現在未使用　使うならsleepgameで呼ぶ
 ;元と違うのは最後のjumpがreturnになっている点のみ
 *start
-[mask time="0" color="0xffffff"]
+
 [cm  ]
 [clearfix]
 
@@ -113,7 +113,7 @@ $(".clickToStart").text("Click to start!!");
 [endkeyframe]
 [kanim name="clickToStart" keyframe="zoom" count="infinite" direction="alternate" easing="ease-in-out" time="500"]
 [l]
-[mask time="3000" color="0xffffff"]
+
 
 [stopanim name="zoom"]
 

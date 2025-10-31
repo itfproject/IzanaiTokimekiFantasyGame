@@ -65,7 +65,7 @@
 [m_name]
 え！？えっと、はい！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_savanah.png" time="1000"]
 
@@ -94,7 +94,7 @@
 #bres:wink
 [name]、次の部屋に行くわよ！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_jungle.png" time="1000"]
 
@@ -152,7 +152,7 @@
 でも、実は[me]も油が多すぎるものは得意じゃなくて。もっとあっさりしてるラーメンのお店によく行くんです。[p]
 ここのお店とか、食べ切れるか心配な人用に、小さいサイズも用意されてて──[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_savanah2.png" time="1000"]
 
@@ -232,7 +232,7 @@
 #bres:smilewink
 私の後をついてきて！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_kinoko.png" time="1000"]
 

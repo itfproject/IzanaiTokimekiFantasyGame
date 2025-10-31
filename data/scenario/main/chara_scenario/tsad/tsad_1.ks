@@ -360,7 +360,7 @@
 あの日は珍しく早起き出来たから、会議室に5分前到着をした朝でね……。[p]
 
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [chara_hide name="ards"]
 [chara_hide name="tsad"]
@@ -828,7 +828,7 @@
 ……ああもう！[p]俺のには砂糖多めに入れてくださいっすよ！[p]
 
 @togaki
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 @chara_hide_all
 [bg storage="2_bench.png" time="1000"]
 [chara_show name="ards" time="200"]

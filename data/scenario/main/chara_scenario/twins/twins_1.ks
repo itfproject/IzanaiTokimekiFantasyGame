@@ -8,11 +8,11 @@
 
 ;ここから上は変更しないでください
 
-[mask graphic="../OPimages/op_ards.png" time="800" effect="fadeInRightBig"]
+
 [wait time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
 
-[mask graphic="../OPimages/op_biol.png" time="800" effect="fadeInRightBig"]
+
 [wait time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
 

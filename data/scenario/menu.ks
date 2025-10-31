@@ -1,6 +1,6 @@
 *start
 [stop_keyconfig]
-[mask time="0" color="0xffffff"]
+
 [refresh]
 [nolog]
 [bg storage="otherbgs/white.png" time="50"]
@@ -340,7 +340,7 @@ triggerMouseMove(cltX, cltY);
 [s]
 
 *select
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -349,7 +349,7 @@ triggerMouseMove(cltX, cltY);
 [showload]
 
 *continue
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -358,7 +358,7 @@ triggerMouseMove(cltX, cltY);
 @jump storage="select_school.ks" 
 
 *config
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -370,7 +370,7 @@ triggerMouseMove(cltX, cltY);
 @jump target="*start"
 
 *idcard
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -382,7 +382,7 @@ triggerMouseMove(cltX, cltY);
 @jump target="*start"
 
 *opscenario
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]

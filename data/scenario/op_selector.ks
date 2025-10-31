@@ -1,6 +1,6 @@
 *start
 [stop_keyconfig]
-[mask time="0" color="0xffffff"]
+
 [refresh]
 [nolog]
 [bg storage="otherbgs/white.png" time="50"]
@@ -201,7 +201,7 @@ triggerMouseMove(cltX, cltY);
 [s]
 
 *config
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -213,7 +213,7 @@ triggerMouseMove(cltX, cltY);
 
 *scenario0
 [eval exp="sf.is_finished_opening = true"]
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -222,7 +222,7 @@ triggerMouseMove(cltX, cltY);
 [s]
 
 *scenario1
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -231,7 +231,7 @@ triggerMouseMove(cltX, cltY);
 [s]
 
 *scenario2
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -240,7 +240,7 @@ triggerMouseMove(cltX, cltY);
 [s]
 
 *back
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]
@@ -249,7 +249,7 @@ triggerMouseMove(cltX, cltY);
 [s]
 
 *idcard
-[mask time="500" color="0xffffff" ]
+
 [cm]
 [freeimage layer="0"]
 [freeimage layer="1"]

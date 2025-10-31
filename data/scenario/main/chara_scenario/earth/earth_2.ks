@@ -74,7 +74,7 @@
 え、いいんですか？[p]よろしくお願いします！[p]
 ワークシートを作った張本人の前で問題を解くなんて緊張するけど……頑張ろうっと！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_hakubutsukan.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -98,7 +98,7 @@
 [m_name]
 はい、よろしくお願いします！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_hakubutsukan.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -121,7 +121,7 @@
 #earth:smile
 うんうん。[l]じゃあまずは、左の部屋に入ろうか。[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 [chara_mod name="earth" face="n.default"]
 [bg storage="9_hakubutsukan.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -162,7 +162,7 @@
 [m_name]
 はい！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_hakubutsukan.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -191,7 +191,7 @@
 [m_name]
 はい！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 [chara_hide name="earth"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
 
@@ -225,7 +225,7 @@
 #earth
 うんうん。[l]じゃあまず、右の部屋に入ろうか。[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_hakubutsukan.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -280,7 +280,7 @@
 
 はい！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [mask_off time=" 500" effect="fadeOutLeftBig"]
 
@@ -306,7 +306,7 @@
 [m_name]
 はい！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [mask_off time=" 500" effect="fadeOutLeftBig"]
 

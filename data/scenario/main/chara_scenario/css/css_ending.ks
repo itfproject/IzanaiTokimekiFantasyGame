@@ -50,7 +50,7 @@
 この１年で社学さんにお世話になったのは[me]だけじゃないしな。[p]
 仕方ないか。今日は帰って、また後日改めてお礼を伝えに行こう。[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="3_gakuhi6.png" time="1000"]
 

@@ -1,5 +1,5 @@
 ;画面描画後に外すマスク
-[mask time="0" color="0xffffff"]
+
 [refresh]
 [nolog]
 

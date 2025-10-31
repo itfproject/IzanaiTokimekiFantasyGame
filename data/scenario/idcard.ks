@@ -1,5 +1,5 @@
 *start
-[mask time="0" color="0xffffff"]
+
 [cm  ]
 [clearfix]
 [freeimage layer="1" ]
@@ -115,7 +115,7 @@ $(".clickToStart").text("Click to start！");
 [endkeyframe]
 [kanim name="clickToStart" keyframe="zoom" count="infinite" direction="alternate" easing="ease-in-out" time="500"]
 [l]
-[mask time="3000" color="0xffffff"]
+
 [stopanim name="zoom"]
 [awakegame cond="sf.is_sleeping_game == true"]
 [return]

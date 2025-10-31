@@ -72,7 +72,7 @@
 #css:seriouser
 君と一緒に行きたい場所があるんだ。[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_cafe.png" time="1000"]
 
@@ -134,7 +134,7 @@
 #css:smile
 俺のおすすめは、この紅茶で──[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 [mask_off time=" 500" effect="fadeOutLeftBig"]
 [wait time="1000" cond="!f.skip"]
 

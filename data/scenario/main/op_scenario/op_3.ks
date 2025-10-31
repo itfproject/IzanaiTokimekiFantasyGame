@@ -239,7 +239,7 @@
 ちょうどこのまま真っ直ぐ歩いていけば辿り着きそうだ。[l][r]
 よし、そっちに向かってみようっと。[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 [wait time="1000"]
 
 [bg storage="1_toshokanbench.png" time="1000"]
@@ -424,7 +424,7 @@ OK！じゃあ2人ともこっち向いて！[l][r]
 さすが学類さんだ。[p]
 よし！喉も潤ったし……宿舎に戻りながら、筑紫祭の他のエリアも見てみようっと！[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="9_kaikanmae.png" time="1000"]
 
@@ -609,7 +609,7 @@ OK！じゃあ2人ともこっち向いて！[l][r]
 @togaki
 そんなやりとりをする３人と１体を眺めながら、[me]は宿舎へ戻ろうと歩き始めた。[p]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="5_5Cchikaku.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -792,7 +792,7 @@ OK！じゃあ2人ともこっち向いて！[l][r]
 
 [chara_hide_all]
 
-[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
+
 
 [bg storage="4_hirasuna_road1.png" time="1000"]
 

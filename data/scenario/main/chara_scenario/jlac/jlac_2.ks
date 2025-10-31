@@ -136,7 +136,7 @@
 [chara_mod name="jlac" face="08"]
 そう返せば日日さんはその目に光を戻し、[r]それは良かったと返してくる。[p]
 
-[mask time="300"]
+
 [chara_mod name="jlac" face="01"]
 [wait time="500"]
 [mask_off time="300"]

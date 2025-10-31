@@ -1,4 +1,4 @@
-[mask time="0" color="0xffffff"]
+
 [cm  ]
 [clearfix]
 [freeimage layer="0"]
@@ -319,6 +319,6 @@ for(let i = 0 ; i < 6 ; i++){
 *go
 [fadeoutbgm time="3000"]
 [clearstack]
-[mask time="500" color="0xffffff"]
+
 [bg storage="otherbgs/white.png" ]
 [jump storage=&f.scenario]
