@@ -1,0 +1,521 @@
+/*reset css */
+@import url("./css/font.css");
+@import url("./css/animate.css");
+@import url("./css/glink.css");
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td{
+    padding:0;
+    margin:0;
+}
+table{
+    border-collapse: collapse;
+    border-spacing:0;
+}
+fieldset,img{
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+    font-weight:normal;
+    font-style:normal;
+}
+ol,ul{
+    list-style:none;
+}
+caption,th{
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+    font-size:100%;
+}
+q:before,q:after{
+    content:'';
+}
+abbr,acronym{
+    border:0;
+}
+
+
+/*smart novel original css */
+
+.vertical_text{
+    
+    font-family:'@ＭＳ 明朝';
+    /*color:white;*/
+    writing-mode:tb-rl;
+    writing-mode:vertical-rl ;
+    -webkit-writing-mode:vertical-rl ;
+    float:right;
+    height:100%;
+
+}
+
+
+.layer_menu {
+    display:none;
+    font-size:1.3em;
+    font-weight:bold;
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+
+/*メニュー*/
+.menu_item {position:relative;margin-top:2%;text-align:center;}
+.menu_item img {cursor:pointer}
+
+/*
+.menu_item img {width:auto;max-width:80%;max-height:10%;}
+.display_menu .button:first-child {margin-top:0;}
+.display_menu{
+    overflow:visible;padding:0;
+    z-index: 10000;
+    width:100%;
+    height:100%;
+    position: absolute;
+    display:block;
+}
+*/
+
+
+/* バックログ画面
+--------------------------------------*/
+.log_body {
+	width: 1452px;
+	height: 1080px;
+	color: #000;
+	font-weight: normal;
+	text-align: left;
+	line-height: 1.6em;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+    font-size: 32px;
+}
+.backlog_chara_name{
+	line-height: 2em;
+    font-size: 40px;
+    padding-left: 50px;
+}
+.backlog_text{
+    display: inline-block;
+    padding-left: 65px;
+    padding-right: 70px;
+    top: -30px;
+    position: relative;
+}
+.backlog_separator{
+    position: relative;
+    top: -40px;
+}
+.backlog_selectbutton{
+    color: #5727C1;
+}
+
+/* スクロールバー */
+.log_body::-webkit-scrollbar {
+	width: 30px;
+}
+
+.log_body::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	background: linear-gradient(#0EB5D7,#5727C1);
+}
+
+.log_body::-webkit-scrollbar-track{
+	background: #fff;
+    background-clip: padding-box;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+}
+
+
+.display_menu .button:first-child {margin-top:0;}
+.display_menu{
+    overflow:visible;padding:0;
+    z-index: 10000;
+    width:100%;
+    height:100%;
+    position: absolute;
+    display:block;
+    /*overflow:visible;padding:2%;display:table-cell;vertical-align:middle*/
+}
+
+/* セーブ時の画面の設定
+--------------------------*/
+/* セーブデータリスト全体の設定 */
+
+.area_save_list {
+    position: absolute;
+	display: block;
+    width: 840px;
+    height: 980px;
+    left: 1040px;
+    top: 100px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+/* スクロールバー */
+.area_save_list::-webkit-scrollbar {
+	width: 30px;
+}
+
+.area_save_list::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	background: linear-gradient(-45deg,#0EB5D7,#5727C1);
+}
+
+.area_save_list::-webkit-scrollbar-track {
+	background: #c3c3c3;
+    background-clip: padding-box;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+}
+
+
+/* セーブデータリスト全体の設定 */
+.save_list {
+	display: table;
+	table-layout: fixed;
+	font-size: 18px;
+	font-weight: normal;
+	border: none;
+	border-collapse: separate;
+	border-spacing: 0 10px;
+	box-sizing: border-box;
+}
+
+/* セーブデータの設定 */
+.save_list_item {
+	display:table-row;
+    color: #000;
+}
+
+.save_list_item:hover{
+    color: #5727C1;
+}
+
+.save_list_item:hover .save_list_item_thumb_content{
+    border-image: linear-gradient(#0EB5D7,#5727C1) 1;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.save_list_item:hover .save_list_item_tape{
+    opacity: 0;
+    transition: .2s;
+}
+
+.save_list_item .backlog_separator{
+    display: none;
+}
+
+.save_list_item .backlog_chara_name{
+    display: none;
+}
+
+.save_list_item br{
+    display: none;
+}
+
+.save_list_item .backlog_text{
+    padding: 0;
+    top: 0;
+}
+
+.save_chara{
+    width: 1350px;
+    height: 1500px;
+    left: 0px;
+    top: 200px;
+    position: absolute;
+}
+
+/* セーブデータのサムネイル部分の設定 */
+.save_list_item_thumb {
+	display: table-cell;
+	width: 350px;
+	height: 220px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* サムネイル画像の設定 */
+.save_list_item_thumb_content {
+	width: 237px;
+	height: 156px;
+	background-color: #BFBFBF;
+    transform: rotate(-6.5deg);
+    margin-top: 30px;
+    border: #fff;
+    border-style: solid;
+    border-width: 10px;
+    transform-origin: center;
+    filter: drop-shadow(2px 4px 6px #00000080);
+    transition: .2s;
+}
+
+/* セーブデータのテキスト部文の設定 */
+.save_list_item_area {
+	display: table-cell;
+	width: 450px;
+	height: 223px;
+	padding: 15px 10px 0 0;
+	text-align: left;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+/* セーブデータの日付の設定 */
+.save_list_item_date {
+	display: block;
+    margin-top: 20px;
+	padding: 0 0 0 20px;
+	line-height: 1;
+	font-weight: bold;
+	box-sizing: border-box;
+    font-size: 32px;
+    height: 27px;
+}
+
+/* セーブデータのテキストの設定 */
+.save_list_item_text {
+	display: block;
+    height: 96px;
+	margin: 0;
+	padding: 1px 0 0 20px;
+	line-height: 33px;
+    overflow: hidden;
+	box-sizing: border-box;
+    font-size: 32px;
+    position: relative;
+    top: 40px;
+}
+
+.save_list_item_tape{
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    transform: rotate(-6.5deg);
+    transform-origin: center;
+    opacity: 1;
+    transition: .2s;
+}
+
+.save_list_item_tape_inactive{
+    filter: grayscale(1);
+}
+
+.save_title{
+    filter: drop-shadow(2px 2px 10px #000);
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #FFFCF0;
+    font-size: 170px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(270deg, #5727C1 0%, #0EB5D7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.layer_event_click{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.layer{
+	background-size:100% 100%;
+}
+
+.button_menu{
+    position:absolute;
+    z-index:99999;
+    top:20px;
+    cursor:pointer;
+}
+
+/*
+ CSSを修正することで、ゲーム画面をカスタマイズすることが可能です
+ * */
+
+/*ゲーム枠の外側の色を指定します*/
+
+body{
+	
+    background-color:black;
+    -webkit-tap-highlight-color: transparent;
+    overflow:hidden;
+    touch-action: manipulation;
+
+}
+
+/*次へのクリックを促すアイコン*/
+
+.img_next{
+    padding-left:3px;
+}
+
+/*テキストボックスの共通スタイル*/
+.text_box{
+
+}
+
+.tyrano_base{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+  
+    -webkit-text-size-adjust:none;
+
+/*  
+  	position: absolute;
+*/
+
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+   
+}
+
+
+/* 反転 */
+.reflect{
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+	filter: FlipH;
+}
+
+/*ダイアログボックス*/
+#alertify{
+    z-index:9999999;
+}
+
+
+/*vchat **************************/
+
+/*——————–
+ 吹き出しを作る
+——————–*/
+
+.vchat_base{
+    
+    width:100%;
+    height:100px;
+    background-color:red;
+    position:relative;
+    display:none;
+    overflow:scroll;    
+       
+}
+
+/* 全体のスタイル */
+.vchat {
+  margin-top: 25px;
+}
+
+/*名前欄*/
+.vchat-name {
+    margin-top:20px;
+    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+}
+
+/*吹き出しテキスト */
+.vchat-text {
+  -webkit-text-size-adjust:none;
+  position: relative;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 12%;
+  box-shadow: 0px 3px 3px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 3px 3px -3px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 3px 3px -3px rgba(0,0,0,0.6);
+  font-size:"xx-large";
+ 
+  word-break: keep-all;
+  line-break: strict;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-touch-callout:none;
+  -webkit-user-select: none;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+  /*float: left;*/
+}
+
+.ribbon20-wrapper {  
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 300px;
+  background: #f1f1f1;
+  }
+.ribbon20 {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  box-sizing: border-box;
+  padding: 0 12px;
+  margin: 0;
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: white;
+  background: #70c7ff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12);
+}
+.ribbon20:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: -7px;
+  border: none;
+  height: 24px;
+  width: 7px;
+  background: inherit;
+  border-radius: 5px 0 0 5px;
+}
+
+/*
+.ribbon20:after {
+  position: absolute;
+  content: '';
+  bottom: -7px;
+  left: -5px;
+  border: none;
+  height: 7px;
+  width: 5px;
+  background: #4d99ca;
+  border-radius: 5px 0 0 5px;
+}
+*/
+
+/* 回り込み解除 */
+.vchat:after,.vchat:before {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+
+
+
+
+
