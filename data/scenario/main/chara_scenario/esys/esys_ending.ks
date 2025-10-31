@@ -85,7 +85,7 @@
 [m_name]
 ちょ、ちょっと！[l][r]Twins、仕事が早すぎるよ！[p]
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 
 [bg storage="3_sangakuAmae.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -102,7 +102,7 @@
 いけない、このままだと遅れちゃう。[l][r]
 会場に向かおうっと。[p]
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 
 [bg storage="3_3A_304.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -163,7 +163,7 @@
 
 ;SE：拍手
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 
 [bg storage="3_gakuhi6.png" time="1000"]
 

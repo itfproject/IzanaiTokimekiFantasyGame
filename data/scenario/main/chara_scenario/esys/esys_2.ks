@@ -63,7 +63,7 @@
 移行先を選ぶヒントにもなるかも。[l][r]
 よし！　家に帰ったら応募してみようっと。[p]
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 
 [bg storage="2_2A308_1.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]
@@ -202,7 +202,7 @@
 #esys:default.nikori
 はいはい、今行くっすー！[p]
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 
 [bg storage="2_2A308_1.png" time="1000"]
 [mask_off time=" 500" effect="fadeOutLeftBig"]

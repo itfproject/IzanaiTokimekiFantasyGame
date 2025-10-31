@@ -92,7 +92,7 @@
 総合生もか？[p]
 @togaki
 ;SE: がしゃん。イメージとしてはお椀の乗ったお盆をテーブルに置く音です。
-
+[mask time="300"]
 [playse storage="../bgm/SE/椅子に座る2.mp3"]
 [bg storage="otherbgs/black.png" time="10"]
 [chara_hide name="help" time="10"]

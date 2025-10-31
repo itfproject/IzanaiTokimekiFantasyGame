@@ -482,7 +482,7 @@
 [me]も真似してみようっと！[p]
 
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 [wait time="1000"]
 
 [bg storage="1_gakuhi.png" time="1000"]

@@ -2,7 +2,7 @@
 ; コンフィグ モード　画面作成
 ;=========================================
 [playbgm storage=Lovely_Life.ogg volume="50"]
-
+[mask color="0xffffff"  time="0"]
 [refresh]
 [nolog]
 [stop_keyconfig]
@@ -511,7 +511,7 @@ backButton.addEventListener('click', () => {
 ;--------------------------------------------------------------------------------
 *backtitle
 ;マスク処理を追加 -waku
-
+[mask color="0xffffff"  time="500"]
 [refresh]
 [start_keyconfig]
 @layopt layer=message1 visible=false

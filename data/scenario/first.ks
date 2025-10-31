@@ -1,3 +1,4 @@
+[clearsysvar]
 [stop_keyconfig]
 [nolog]
 ;ティラノスクリプトが標準で用意している便利なライブラリ群

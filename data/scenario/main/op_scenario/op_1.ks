@@ -324,7 +324,7 @@
 ……よし！[l][r]
 筑紫祭、行ってみようっと！[p]
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 
 [bg storage="9_pede.png" time="1000"]
 
@@ -598,7 +598,7 @@
 #huds:default
 いたいのいたいの〜飛んでいけ〜！だよ！[p]
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 [wait time="1000"]
 
 [bg storage="1_studentplaza.png" time="1000"]
@@ -849,7 +849,7 @@
 @togaki
 彼の背中が見えなくなってから、[me]は説明会の会場を目指して、再度歩き始めた。[p]
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 [wait time="1000"]
 
 [bg storage="1_1C1B.png" time="1000"]
@@ -918,7 +918,7 @@
 [m_name]
 はい！ありがとうございました！[p]
 
-
+[mask graphic="../bgimage/otherbgs/white.png" time="800" effect="fadeInRightBig"]
 [wait time="1000"]
 [chara_hide_all]
 
