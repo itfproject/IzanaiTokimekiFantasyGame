@@ -1,0 +1,66 @@
+.itf-config-title{
+    filter: drop-shadow(2px 2px 10px #000);
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #FFFCF0;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(270deg, #5727C1 0%, #0EB5D7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.itf-config-setting-title{
+    filter: drop-shadow(2px 2px 0px #000);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000;
+    height: 0px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.itf-config-setting-volume{
+    font-size: 96px;
+    line-height: 110px;
+}
+
+.itf-config-setting-message{
+    font-size: 80px;
+    line-height: 100px;
+}
+
+.itf-config-setting-dialog{
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.itf-config-setting-save{
+    font-size: 80px;
+    line-height: 100px;
+}
+
+/*===　　　スライダーの設定　　　===*/
+.itf-config-slider{
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    visibility: hidden;
+}
+
+.itf-config-slidevalue{
+    width: 70px;
+}
+
+.itf-config-slideindex{
+    width: 500px;
+}
+
+/*===　　　チェックボックスの設定　　　===*/
+.itf-config-check{
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    visibility: hidden;
+}

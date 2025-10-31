@@ -1,0 +1,548 @@
+#itf-menu-page {
+    left: 129px;
+    top: -44px;
+    width: 1682px;
+    height: 1189px;
+    transform: rotate(4deg);
+    position: absolute;
+}
+
+.flip-horizontal{
+    transform: scale(-1, 1);
+}
+
+.itf-menu-page-left {
+    right: 841px;
+    top: 0px;
+}
+
+.itf-menu-page-right {
+    left: 841px;
+    top: 0px;
+}
+
+.itf-menu-page-left-parents{
+    right: 841px;
+    top: 0px;
+    width: 841px;
+    height: 1189px;
+    z-index: 2;
+    position: absolute;
+}
+
+.itf-menu-page-right-parents{
+    left: 841px;
+    top: 0px;
+    width: 841px;
+    height: 1189px;
+    z-index: 2;
+    position: absolute;
+}
+
+#itf-menu-page-flipping-parent{
+    left: 0px;
+    top: 0px;
+    width: 841px;
+    height: 1189px;
+    z-index: 2;
+    position: absolute;
+}
+
+#itf-menu-page-flip-3Dparent{
+    left: 841px;
+    top: 0px;
+    width: 841px;
+    height: 1189px;
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 2000px;
+    perspective-origin: left;
+    z-index: 3;
+}
+
+#itf-menu-page-flipper{
+    left: 0px;
+    top: 0px;
+    width: 841px;
+    height: 1189px;
+    position: absolute;
+    transform-origin: left;
+}
+
+.itf-flip-anim{
+    transition: .2s;
+}
+
+.itf-is-flipped{
+    transform: rotateY(-180deg);
+}
+
+.itf-is-half-flipped{
+    transform: rotateY(-90deg);
+}
+
+#itf-menu-fixed{
+    z-index: 5;
+    position: absolute;
+}
+
+.itf-menu-logo{
+    transition: 2s;
+    opacity: 0;
+}
+
+.itf-logo-anim{
+    transition: .2s;
+    filter: drop-shadow(0px 0px 10px var(--glowing-color));
+    opacity: 20;
+}
+
+.itf-menu-confirm{
+    position: absolute;
+    transition: opacity 3s;
+    left: 673px;
+    top: 850px;
+    width: 575px;
+    height: 100px;
+    transform-origin: center;
+    transform: scale(1.5);
+    transition: .2s;
+}
+
+.menu-hide-grad{
+    transition: 1s;
+    opacity: 0%;
+}
+
+.itf-menu-confirm:hover{
+    transform: scale(1.55);
+    transition: .2s;
+}
+
+/*      キャラ選択画面用        */
+
+#itf-menu-chara-page {
+    left: -109px;
+    top: 119px;
+    width: 2138px;
+    height: 1373px;
+    position: absolute;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+.itf-menu-chara-page-left {
+    right: 1069px;
+    top: 0px;
+}
+
+.itf-menu-chara-page-right {
+    left: 1069px;
+    top: 0px;
+}
+
+.itf-menu-chara-page-left-parent{
+    right: 1069px;
+    top: 0px;
+    width: 1069px;
+    height: 1373px;
+    z-index: 2;
+    position: absolute;
+}
+
+.itf-menu-chara-page-right-parent{
+    left: 1069px;
+    top: 0px;
+    width: 1069px;
+    height: 1373px;
+    z-index: 2;
+    position: absolute;
+}
+
+#itf-menu-chara-page-flipping-parent{
+    left: 0px;
+    top: 0px;
+    width: 1069px;
+    height: 1373px;
+    z-index: 2;
+    position: absolute;
+}
+
+#itf-menu-chara-page-flip-3Dparent{
+    left: 1069px;
+    top: 0px;
+    width: 1069px;
+    height: 1373px;
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 2000px;
+    perspective-origin: left;
+    z-index: 4;
+}
+
+#itf-menu-chara-page-flipper{
+    left: 0px;
+    top: 0px;
+    width: 1069px;
+    height: 1373px;
+    position: absolute;
+    transform-origin: left;
+}
+
+/*      固有の要素        */
+
+.itf-menu-chara-page-quote{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 32px;
+    background: #569178;
+    padding: 10px 5px 50px;
+    letter-spacing: 0.2rem;
+    filter: drop-shadow(#000 2px 5px 5px);
+}
+
+.itf-menu-chara-page-quote-overlay{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 32px;
+    background: #569178;
+    padding: 10px 5px 50px;
+    letter-spacing: 0.2rem;
+    background-color: #ffffff80;
+}
+
+.itf-menu-chara-page-name{
+    text-shadow: 2px 2px 0 #000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 96px;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 145px;
+}
+
+.itf-menu-chara-page-name-ruby{
+    font-size: 20px;
+    width: 960px;
+    letter-spacing: 25px;
+    text-indent: 25px;
+}
+
+.itf-menu-chara-page-name-en{
+    font-size: 20px;
+    width: 960px;
+    letter-spacing: 5px;
+    text-indent: 5px;
+}
+
+.itf-menu-chara-page-description{
+    font-size: 24px;
+    width: 530px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 40px;
+}
+
+.itf-menu-chara-page-school{
+    font-size: 20px;
+    width: 960px;
+    letter-spacing: 10px;
+    text-indent: 10px;
+}
+
+.itf-menu-chara-page-arrow-l-button{
+    position: absolute;
+    left: 1150px;
+    top: 765px;
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+}
+
+.itf-menu-chara-page-arrow-r-button{
+    position: absolute;
+    left: 1848px;
+    top: 765px;
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+}
+
+.itf-menu-chara-page-charaicon{
+    transform-origin: top;
+    top: 740px;
+    transition: transform .2s;
+}
+
+.itf-menu-chara-page-iconframe{
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    background-color: #000;
+    transform-origin: top;
+    top: 763px;
+    transition: transform .2s;
+}
+
+.itf-menu-chara-page-background{
+    position: absolute;
+    top: 780px;
+    width: 136px;
+    height: 75px;
+}
+
+.itf-menu-chara-page-clonedcharaicon{
+    transform-origin: bottom;
+    top: 820px; 
+    transition: transform .2s;
+}
+
+.itf-menu-chara-page-clonediconframe{
+    transform-origin: bottom;
+    top: 845px; 
+    transition: transform .2s;
+}
+
+.itf-menu-chara-page-clonedbackground{
+    transform-origin: bottom;
+    top: 860px; 
+}
+
+.itf-confirm{
+    position: absolute;
+    transition: opacity 2s;
+    left: 1261px;
+    width: 575px;
+    height: 100px;
+    transition: .2s;
+}
+
+.itf-confirm:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.itf-confirm-0{
+    top: 535px;
+}
+.itf-confirm-1{
+    top: 613px;
+}
+
+.hide-grad{
+    transition: .2s;
+    opacity: 0%;
+}
+
+.itf-confirm-text{
+    font-size: 32px;
+    width: 575px;
+    line-height: 89px;
+}
+
+.itf-back-button{
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+}
+
+.itf-menu-chara-page-tag{
+    position: absolute;
+    padding: 10px 16px 80px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
+    transition: .2s;
+}
+
+.itf-menu-chara-page-tag:hover{
+    transform: translate(0px, -10px);
+    transition: .2s;
+}
+
+.itf-menu-chara-page-tag-0{
+    background-color: #F86767;
+}
+.itf-menu-chara-page-tag-1{
+    background-color: #FFBF50;
+}
+.itf-menu-chara-page-tag-2{
+    background-color: #FFE863;
+}
+.itf-menu-chara-page-tag-3{
+    background-color: #8EE79C;
+}
+.itf-menu-chara-page-tag-4{
+    background-color: #73CEE2;
+}
+.itf-menu-chara-page-tag-5{
+    background-color: #8AA1E1;
+}
+.itf-menu-chara-page-tag-6{
+    background-color: #AF8AE1;
+}
+.itf-menu-chara-page-tag-7{
+    background-color: #CEE86F;
+}
+.itf-menu-chara-page-tag-8{
+    background-color: #D990F2;
+}
+.itf-menu-chara-page-tag-9{
+    background-color: #7ADECD;
+}
+.itf-menu-chara-page-tag-10{
+    background-color: #F880C0;
+}
+/*      old_menu/select.ks用        */
+
+.backGrad {
+    border-style: none;
+    background: linear-gradient(#569178,#fff);
+    margin: 0px;
+    border-radius: 0%;
+    transform: translateX(-150px) skewX(-15deg);
+}
+
+.charaSerifu {
+    writing-mode: vertical-rl;
+    margin: 50 300 50;
+    background: #fff;
+    color: #000;
+    font-size: 35pt;
+    line-height: 1;
+    background: linear-gradient(90deg, transparent 20%, #56917880 0%);
+    text-shadow: #ffffff20 0 0 5px;
+    filter: drop-shadow(#fff 0 0 5px);
+}
+
+.charaSerifu2 {
+    writing-mode: vertical-rl;
+    margin: 50 300 50;
+    background: #fff;
+    color: #000;
+    font-size: 35pt;
+    line-height: 1;
+    background: linear-gradient(90deg, transparent 20%, #56917880 0%);
+    text-shadow: #ffffff20 0 0 5px;
+    filter: drop-shadow(#fff 0 0 5px);
+    top: auto !important;
+    bottom: 100px;
+}
+
+.charaSerifuFrame{
+    transform: skew(-10deg);
+    height: 1080px;
+
+}
+
+.charaName {
+    border-style: none;
+    background: linear-gradient(90deg,#569178,#ffffff00);
+    margin: 0px;
+    border-radius: 0%;
+    transform: translateX(-15px) skewX(-15deg);
+    font-size: 50pt;
+    padding: 10px 300px 10px 50px;
+    text-shadow: #00000050 0 0 5px;
+}
+
+.charaText{
+    font-size: 20pt;
+    width: 730px;
+    padding: 10px 10px 10px 50px;
+    background: #ffffff80;
+    transform: translateX(-25px) skewX(-10deg);
+}
+
+.charaFace{
+    clip-path: polygon(0% 0%, 0% 100%, 62% 100%, 95% 0%);
+    background: linear-gradient(to bottom, transparent 0%, transparent 70%, #fff 100%), url(../../../data/image/select/face/help.png);
+}
+
+* {
+    cursor: url(../../../data/image/cursor2.png), default !important;
+}
+
+.charaSelect{
+    transform: skewX(-15deg);
+    filter: grayscale(100%);
+}
+
+.charaSelect1{
+    filter: grayscale(100%);
+}
+
+.charaSelect2{
+    filter: grayscale(100%);
+}
+
+.select0{
+    background: linear-gradient(#fff, #569178);
+    filter: grayscale(0%);
+}
+
+.select1{
+    background: linear-gradient(#fff, #f58824);
+}
+
+.select2{
+    background: linear-gradient(#fff, #c94336);
+}
+
+.selectCol{
+    transform: skewX(-15deg);
+}
+
+.configBackButton {
+    border-style: none;
+    padding: 0px;
+    border-radius: 50%;
+    transform: scale(1, 1);
+    transition: .1s;
+}
+
+.configBackButton:hover {
+    transform: scale(1.03, 1.03);
+    border-radius: 20%;
+    text-shadow: 0 0 0 #fff;
+    transition: .2s;
+}
+.configBackButton:active {
+    transform: scale(0.98, 0.98);
+    border-radius: 20%;
+    text-shadow: 0 0 0 #fff;
+    transition: .2s;
+}
+
+.combutton{
+    padding-top: 30px;
+}
+
+.go{
+    filter: opacity(0%);
+    pointer-events: none;
+}
+
+.go:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.kari{
+    filter: opacity(0%);
+    pointer-events: none;
+    font-size: 30pt;
+    display: flex;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+}
+
+
+.kari:hover{
+    transform: scale(1.1);
+    transition: .2s;
+}

@@ -1,0 +1,62 @@
+.text_box {
+    border-style: none;
+    padding-left: 10px;
+    caret-color: #5727C1;
+    background: #fff;
+    outline: #5727C1;
+}
+.name_b {
+    display: block;
+    height: 110px;
+    width: 630px;
+    background: linear-gradient(-45deg, #5727C1, #0EB6D7, #5727C1, #0EB6D7);
+    background-size: 800% 800%;
+    transform-origin: right;
+    animation: GradietionAnimation 5s ease infinite;
+}
+.me_b {
+    display: block;
+    height: 110px;
+    width: 630px;
+    background: linear-gradient(-45deg, #5727C1, #0EB6D7, #5727C1, #0EB6D7);
+    background-size: 800% 800%;
+    transform-origin: left;
+    animation: GradietionAnimation 5s ease infinite;
+}
+
+@keyframes GradietionAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+.confirm {
+    animation: 0.5s appear;
+    border-style: none;
+    padding: 0px;
+    border-radius: 50%;
+    transform: scale(1, 1);
+    transition: .1s;
+}
+
+@keyframes appear {
+    0%{transform: scale(0, 0)}
+    100%{transform: scale(1, 1)}
+}
+
+.confirm:hover {
+    transform: scale(1.03, 1.03);
+    border-radius: 20%;
+    text-shadow: 0 0 0 #fff;
+    transition: .2s;
+}
+.confirm:active {
+    transform: scale(0.98, 0.98);
+    border-radius: 20%;
+    text-shadow: 0 0 0 #fff;
+    transition: .2s;
+}
+
+.datetext{
+    filter: blur(0.7px);
+}

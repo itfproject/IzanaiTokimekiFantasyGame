@@ -1,0 +1,348 @@
+[
+    {
+        "id": "humanities_culture",
+        "name": "人文・文化学群",
+        "colleges": [
+            {
+                "id": "help",
+                "name": "人文学類",
+                "ruby": "じんぶんがくるい",
+                "en": "College of Humanities",
+                "quote1": "今日は考古学調査に行ってくる",
+                "quote2": "・・・私だって外に出るぞ？",
+                "description": "寡黙だが知識欲が絶えず、人間とはいかなる存在か研究している学類。時間感覚に疎い節があり、気づけば夜を越えて文献を読みふけっているためいつも目元にクマができている。",
+                "mainColor": "#69821b"
+            },
+            {
+                "id": "ccc",
+                "name": "比較文化学類",
+                "ruby": "ひかくぶんかがくるい",
+                "en": "College of Comparative Culture",
+                "quote1": "それもキミの個性！ちがうって",
+                "quote2": "キラキラしてる、のよ！",
+                "description": "お姉さんを自称するおてんばな学類。思ったことをすぐ口に出す素直な性格。少々ドジな面があり、危機に陥っているところをよく学生や学類に助けてもらっている。",
+                "mainColor": "#ff7b00"
+            },
+            {
+                "id": "jlac",
+                "name": "日本語・日本文化学類",
+                "ruby": "にほんご・にほんぶんかがくるい",
+                "en": "College of Japanese Language and Culture",
+                "quote1": "他文化と比較して、初めて見える",
+                "quote2": "日本文化の魅力もあるんです！",
+                "description": "穏和な性格で人当たりが良い学類。人文・文化学群の中では控えめな末っ子的存在で、他の二人をそっと支えるように立ち回る。日本語しか話せないと思われがちだが、英語も得意。",
+                "mainColor": "#d9341d"
+            }
+        ]
+    },
+    {
+        "id": "social_international",
+        "name": "社会・国際学群",
+        "colleges": [
+            {
+                "id": "css",
+                "name": "社会学類",
+                "ruby": "しゃかいがくるい",
+                "en": "College of Social Sciences",
+                "quote1": "俺が力になれることなら",
+                "quote2": "なんだって相談して欲しいな",
+                "description": "アクティブで社交的な人気者の学類。顔と名前を覚えるのが得意で、一度会った相手は絶対に忘れない。学生とも距離が近く、テスト終わりには共に打ち上げをすることも。",
+                "mainColor": "#ffb325"
+            },
+            {
+                "id": "cis",
+                "name": "国際総合学類",
+                "ruby": "こくさいそうごうがくるい",
+                "en": "College of International Studies",
+                "quote1": "お疲れでしたらわたくしと一緒に",
+                "quote2": "お茶にいたしませんこと？",
+                "description": "品のある落ち着いた物腰ながら、行動力に満たした学類。多言語を操り、各国に友人を持っている。 各国の料理を食べ歩いたり 色々な文化圏の行事に参加したりするのが趣味。",
+                "mainColor": "#ffdfbe"
+            }
+        ]
+    },
+    {
+        "id": "human_sciences",
+        "name": "人間学群",
+        "colleges": [
+            {
+                "id": "edu",
+                "name": "教育学類",
+                "ruby": "きょういくがくるい",
+                "en": "College of Education",
+                "quote1": "わからないことは何でも・・・",
+                "quote2": "数学以外は聞いてくれて大丈夫！",
+                "description": "人の話を聞くのも教えるのも得意な、柔らかな雰囲気の学類。特に女子学生からの人気が高い。おっとりしているように見えるが、実際は意外とおしゃべりが好き。",
+                "mainColor": "#9e2927"
+            },
+            {
+                "id": "psy",
+                "name": "心理学類",
+                "ruby": "しんりがくるい",
+                "en": "College of Psychology",
+                "quote1": "みんなが幸せなことが一番！",
+                "quote2": "あなたもそう思わない？",
+                "description": "優しく温かい心を持つがゆえに、頼まれごとを断れない性格の学類。人の気持ちに敏感で、困っている人を見ると放っておけず、相手の感情をすぐに読み取って寄り添おうとする。",
+                "mainColor": "#f3a68c"
+            },
+            {
+                "id": "huds",
+                "name": "障害科学類",
+                "ruby": "しょうがいかがくるい",
+                "en": "College of Disability Sciences",
+                "quote1": "元気なキミを見てると〜",
+                "quote2": "アタシも元気になれる！",
+                "description": "誰に対しても分け隔てなく優しく接する学類。自分以外の全員を守るべき子供のような存在として見ている。全身がシールでデコられており、彼女にハグをされるとシールがくっつく。",
+                "mainColor": "#1293b3"
+            }
+        ]
+    },
+    {
+        "id": "life_environmental",
+        "name": "生命環境学群",
+        "colleges": [
+            {
+                "id": "biol",
+                "name": "生物学類",
+                "ruby": "せいぶつがくるい",
+                "en": "College of Biological Sciences",
+                "quote1": "筑波の森に棲む虫だって",
+                "quote2": "生きるために毎日必死なんだ",
+                "description": "人に悪戯するのが大好きな学類。人間を含むあらゆる生き物に強い関心を持ち、常にデジタルカメラと自作の植物図鑑を持ち歩いている。",
+                "mainColor": "#9fc24b"
+            },
+            {
+                "id": "bres",
+                "name": "生物資源学類",
+                "ruby": "せいぶつしげんがくるい",
+                "en": "College of Agro-Biological Resource Sciences",
+                "quote1": "今日も素敵なお野菜日和ね！",
+                "quote2": "ほら、一緒に収穫に行くわよ！",
+                "description": "そばかすが散った顔にいつでも笑顔を浮かべている、元気な学類。かなりマイペースな性格で盛り上がると周りのことが一切見えなくなることも。野菜、特にトマトをこよなく愛している。",
+                "mainColor": "#c44d59"
+            },
+            {
+                "id": "earth",
+                "name": "地球学類",
+                "ruby": "ちきゅうがくるい",
+                "en": "College of Geoscience",
+                "quote1": "僕のお気に入りの鉱石たちだよ",
+                "quote2": "君には特別に見せてあげる",
+                "description": "ミステリアスな雰囲気の漂う、穏やかな性格の学類。ゆったりとした優しい声で話す。若々しい見た目に反して、まるで何百年も生きてきたかのような語り口を見せることも。",
+                "mainColor": "#a0d8ef"
+            }
+        ]
+    },
+    {
+        "id": "science_engineering",
+        "name": "理工学群",
+        "colleges": [
+            {
+                "id": "math",
+                "name": "数学類",
+                "ruby": "すうがくるい",
+                "en": "College of Mathematics",
+                "quote1": "お、総合生くんじゃあないか",
+                "quote2": "調子はどうだ？証明してるか？",
+                "description": "どこか掴みどころのない聡明な学類。合理的な判断を好むため、非効率なことには露骨に興味を失う。多趣味であり統計データを持ち出して⼈⽂系の学類と議論することも。",
+                "mainColor": "#322b65"
+            },
+            {
+                "id": "phys",
+                "name": "物理学類",
+                "ruby": "ぶつりがくるい",
+                "en": "College of Physics",
+                "quote1": "箱を開けてはいけません",
+                "quote2": "好奇心は猫を殺すと言うでしょう",
+                "description": "ゴスロリの服を身に纏った性別不詳の学類。低い声質を持ち、丁寧語を交えた文章で話す。不思議な雰囲気を持っているが、話をよく聞いてみるとただの限界研究者であることが判明する。",
+                "mainColor": "#af0408"
+            },
+            {
+                "id": "chem",
+                "name": "化学類",
+                "ruby": "かがくるい",
+                "en": "College of Chemistry",
+                "quote1": "キミ、すっごく面白いなあ！",
+                "quote2": "もっとキミのことを知りたいよ！",
+                "description": "常識に縛られない自由奔放な性格の学類。実験が何よりも大好きで、常に実験第一の生活を送っている。よく何かしらの大爆発を起こしており、日常となっている。",
+                "mainColor": "#ff9c8f"
+            },
+            {
+                "id": "coens",
+                "name": "応用理工学類",
+                "ruby": "おうようりこうがくるい",
+                "en": "College of Engineering Sciences",
+                "quote1": "・・・？ああ",
+                "quote2": "僕に話しかけてたんですか",
+                "description": "人付き合いに淡白で、気が向いた時にふらっと現れるマイペースな学類。彼自身のやりたい事でスケジュールが組まれているので、動向を把握しているものは少ない。",
+                "mainColor": "#ccff33"
+            },
+            {
+                "id": "esys",
+                "name": "工学システム学類",
+                "ruby": "こうがくしすてむがくるい",
+                "en": "College of Engineering Systems",
+                "quote1": "機械いじりと修理なら",
+                "quote2": "オレに任せてくださいっす！",
+                "description": "面倒見が良く、人の頼みを断れない苦労人気質な学類。電子工作が得意で、時には機械系の玩具やゲームを作って遊んでいる。機械に向き合う彼の姿勢には、作家の素質を感じることも。",
+                "mainColor": "#38ffeb"
+            },
+            {
+                "id": "pops",
+                "name": "社会工学類",
+                "ruby": "しゃかいこうがくるい",
+                "en": "College of Policy and Planning Sciences",
+                "quote1": "え？明日みんなでBBQ行くの？",
+                "quote2": "俺も混ぜてよ！",
+                "description": "見た目はチャラいが真面目で面倒見の良い学類。社交的でノリが良く、常に場を明るくしてくれる。誰かとワイワイお酒を飲むのが好き。",
+                "mainColor": "#7edf5e"
+            },
+            {
+                "id": "ide",
+                "name": "総合理工学位プログラム",
+                "ruby": "そうごうりこうがくいぷろぐらむ",
+                "en": "Bachelor’s Program in Interdisciplinary Engineering",
+                "quote1": "勉強は面白いけど・・・",
+                "quote2": "たまには息抜きもしないとね〜 ",
+                "description": "温温厚で天然な性格の学位プログラム。普段はおっとりしているが、勉強面では意外とストイック。動物と戯れるのが好きで、猫や鳥によく懐かれている様子が生徒には好評。",
+                "mainColor": "#e2a835"
+            }
+        ]
+    },
+    {
+        "id": "informatics",
+        "name": "情報学群",
+        "colleges": [
+            {
+                "id": "coins",
+                "name": "情報科学類",
+                "ruby": "じょうほうかがくるい",
+                "en": "College of Information Science",
+                "quote1": "もっと論理的に考えろ。",
+                "quote2": "AIでもそんな結論は出さないぞ",
+                "description": "無口でクールを装うが、実はツンデレでサブカル好きな学類。アニメの影響でかっこつけた話し方となっている。人見知り気味だが、打ち解けた学生とはアニメの話で盛り上がることも。",
+                "mainColor": "#5a4498"
+            },
+            {
+                "id": "mast",
+                "name": "情報メディア創成学類",
+                "ruby": "じょうほうめでぃあそうせいがくるい",
+                "en": "College of Media Arts, Science and Technology",
+                "quote1": "喉乾いてるなら、コレあげるよ！",
+                "quote2": "甘口と中辛、どっちがいい？",
+                "description": "気分屋で自由奔放、何事も思い立ったら即行動する性格の学類。とある人物を見習い、レトルトカレーにストローを挿して直に吸って摂取している。",
+                "mainColor": "#a569ff"
+            },
+            {
+                "id": "klis",
+                "name": "知識情報・図書館学類",
+                "ruby": "ちしきじょうほう・としょかんがくるい",
+                "en": "College of Knowledge and Library Sciences",
+                "quote1": "ありがとう！君のおかげで",
+                "quote2": "新しい情報に出会えたよ",
+                "description": "物腰柔らかで、正確で最適な情報を素早く提供してくれる頼れる学類。新しい学類なので他学類に比べ見た目が幼いが、自身の専門学問に確固たるプライドを持っている。",
+                "mainColor": "#405875"
+            }
+        ]
+    },
+    {
+        "id": "medicine_health",
+        "name": "医学群",
+        "colleges": [
+            {
+                "id": "med",
+                "name": "医学類",
+                "ruby": "いがくるい",
+                "en": "College of Medicine",
+                "quote1": "短い睡眠時間を⾃慢するなんて",
+                "quote2": "愚か極まりないことです",
+                "description": "冷静沈着で、感情をほとんど表に出さない学類。誰に対しても自然な微笑みを浮かべ、容赦のない鋭い言葉を述べる。目立つのが苦手で、人前に出る時はペストマスクで顔を隠している。",
+                "mainColor": "#5586b5"
+            },
+            {
+                "id": "nurse",
+                "name": "看護学類",
+                "ruby": "かんごがくるい",
+                "en": "College of Nursing",
+                "quote1": "私におまかせください",
+                "quote2": "人に頼ることも時には大事です",
+                "description": "穏やかで面倒見の良い学類。学生の悩み相談にもきちんと耳を傾け寄り添ってくれる。それゆえ彼女に心を奪われる学生は多いが、どんな人にもなびかない鉄の精神を持つ。",
+                "mainColor": "#efdde4"
+            },
+            {
+                "id": "meds",
+                "name": "医療科学類",
+                "ruby": "いりょうかがくるい",
+                "en": "College of Medical Sciences",
+                "quote1": "は〜い、一瞬ちくっとしますよ〜",
+                "quote2": "・・・おしまい！よく頑張ったね",
+                "description": "性別不詳で中性的な顔立ちと声を持つ学類。常に穏やかな表情を浮かべており一見すると何を考えているのかわからない。首から下げている薬品は一応医薬品ではあるらしい。",
+                "mainColor": "#a7b716"
+            }
+        ]
+    },
+    {
+        "id": "pehs",
+        "name": "体育専門学群",
+        "colleges": [
+            {
+                "id": "pehs",
+                "name": "体育専門学群",
+                "ruby": "たいいくせんもんがくぐん",
+                "en": "School of Physical Education, Health and Sport Sciences",
+                "quote1": "早寝早起きに三食欠かさずは",
+                "quote2": "学生として最低ラインだからな！",
+                "description": "快活で筋の通ったストイックな学群。真面目すぎて時に厳しく見えるが、根は優しく努力を重んじる熱血派。少し実力至上主義的な側面を持つ。",
+                "mainColor": "#c8e817"
+            }
+        ]
+    },
+    {
+        "id": "ards",
+        "name": "芸術専門学群",
+        "colleges": [
+            {
+                "id": "ards",
+                "name": "芸術専門学群",
+                "ruby": "げいじゅつせんもんがくぐん",
+                "en": "School of Art and Design",
+                "quote1": "君はこれを何で描きたい？",
+                "quote2": "何が知りたい？何を秘めたい？",
+                "description": "不健康そうなアンニュイな雰囲気を持つが、実は人好きで多弁な学群。独特の価値観や視点を持っており、ちょっとやそっとじゃ揺らぐことは無い。",
+                "mainColor": "#7864ad"
+            }
+        ]
+    },
+    {
+        "id": "global_majors",
+        "name": "グローバル教育院",
+        "colleges": [
+            {
+                "id": "bpgi",
+                "name": "地球規模課題学位プログラム",
+                "ruby": "ちきゅうきぼかだいがくいぷろぐらむ",
+                "en": "Bachelor’s Program in Global Issues",
+                "quote1": "どうしましょう、学類の皆様が",
+                "quote2": "かっこ良すぎるのです・・・！",
+                "description": "目つきが悪く仏頂面だが、内心では他学類の素敵な言動に萌え悶えている限界オタク気質な学位プログラム。他の学類を遠くから観察しては仕草や行動に惚れ、脳内で愛を叫んでいる。",
+                "mainColor": "#828282"
+            }
+        ]
+    },
+    {
+        "id": "tsad",
+        "name": "学際サイエンス・デザイン専門学群",
+        "colleges": [
+            {
+                "id": "tsad",
+                "name": "学際サイエンス・デザイン専門学群",
+                "ruby": "がくさいさいえんす・でざいんせんもんがくぐん",
+                "en": "School of Transdisciplinary Science and Design",
+                "quote1": "今日のあなたのお洋服、素敵ね",
+                "quote2": "月と同じ色みたい",
+                "description": "感情が外に出づらいが、多くの感情を心の中に秘めている学群。人と話すことも好きだが、自分のことは多く語らず、聞き役に徹する。ご機嫌な時にだけ鼻歌を口ずさむ姿が見られる。",
+                "mainColor": "#e42c48"
+            }
+        ]
+    }
+]

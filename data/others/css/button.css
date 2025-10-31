@@ -1,0 +1,37 @@
+.button_graphic {
+	padding: 1.2em 2em 1em;
+	box-sizing: border-box;
+}
+.button_graphic:hover {
+    transform: scale(1.03, 1.03);
+}
+.button_graphic:active {
+    transform: scale(0.98, 0.98);
+}
+/*
+fixレイヤー
+*/
+.menu_1:hover {
+    transform: scale(1.2, 1.2) rotate( -2deg);
+}
+.menu_2:hover {
+    transform: scale(1.2, 1.2) rotate( -2deg);
+}
+.menu_3:hover {
+    transform: scale(1.2, 1.2) rotate( -2deg);
+}
+.menu_4:hover {
+    transform: scale(1.2, 1.2) rotate( -2deg);
+}
+.menu_5:hover {
+    transform: scale(1.2, 1.2) rotate( -2deg);
+}
+.menu_6:hover {
+    transform: scale(1.2, 1.2) rotate( -2deg);
+}
+.menu_o:hover {
+    transform: scale(1.2, 1.2) rotate( -2deg);
+}
+.menu_c:hover {
+    transform: scale(1.2, 1.2) rotate( -2deg);
+}

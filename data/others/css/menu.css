@@ -1,0 +1,102 @@
+.menu_settings:hover {
+    filter: drop-shadow(0px 0px 10px #007bffb3);
+    transform: scale(1.05);
+    transition: .1s;
+}
+
+.menu_opscenario:hover {
+    filter: drop-shadow(0px 0px 10px #007bffb3);
+    transform: rotate(-10deg) skew(3deg) scale(1.05);
+    transition: .1s;
+}
+
+.menu_opscenario{
+    transform: rotate(-10deg) skew(3deg);
+    transform-origin: center;
+    filter: blur(2px) drop-shadow(0px 2px 2px #00000080);
+    transition: .1s;
+}
+
+.menu_col {
+    opacity: 0%;
+    transform: rotate( -4deg) skew(10deg);
+}
+
+.menu_twins {
+    transition: .2s;
+}
+
+.menu_grad {
+    transition: .5s;
+    transform-origin: left;
+    transform: scale(0,1);
+}
+
+.menu_fuki {
+    transition: .3s;
+    transform-origin: bottom;
+    transform: scale(0,0);
+}
+
+.menu_text {
+    opacity: 100%;
+}
+
+.menu_c_back {
+    transform: rotate( -15deg);
+    filter: blur(4px) contrast(70%);
+}
+
+.menu_c_left {
+    transform: translate(-273px, 72px) rotate( -15deg);
+    filter: drop-shadow(0px 0px 5px #ffffff);
+    transition: .3s;
+}
+
+.menu_c_right {
+    transform: translate(273px, -72px) rotate( -15deg);
+    filter: drop-shadow(0px 0px 5px #ffffff);
+    transition: .3s;
+}
+
+.menu_g_back {
+    transform: rotate( -8deg);
+}
+
+.menu_c_col {
+    opacity: 0%;
+    transform: rotate( -15deg);
+}
+
+.menu_c_fuki {
+    transition: .3s;
+    transform-origin: bottom;
+    transform: scale(0,0);
+}
+
+.menu_c_grad {
+    transition: .5s;
+    transform-origin: left;
+    transform: scale(0,1);
+}
+
+.mask {
+    pointer-events: none;
+}
+
+.menu_i_col{
+    transform: rotate(-8deg);
+    transition: .1s;
+    filter: blur(4px);
+}
+
+.menu_i_col:hover{
+    filter: drop-shadow(0px 0px 10px #007bffb3);
+    transform: rotate(-8deg) scale(1.05);
+}
+
+.date_text{
+    transform: rotate(-4.5deg) skewX(15deg);
+    letter-spacing: -9px;
+    filter: blur(2px);
+}
